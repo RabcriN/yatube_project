@@ -8,6 +8,7 @@ Description:
 
 ##### Technologies:
 Python 3.7
+<br>
 Django 2.2.19
 ##### Author:
 Leonid Turanov 

@@ -17,7 +17,12 @@ class PostAdmin(admin.ModelAdmin):
 
 
 class GroupAdmin(admin.ModelAdmin):
-    list_display = ('pk', 'title', 'slug', 'description')     
+    list_display = (
+        'pk',
+        'title',
+        'slug',
+        'description',
+    )     
 
 
 admin.site.register(Post, PostAdmin)  
